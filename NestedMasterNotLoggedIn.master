@@ -1,0 +1,9 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="NestedMasterNotLoggedIn.master.cs" Inherits="ProjektKoncowyV5.NestedMasterNotLoggedIn" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+        <li><a href="/AboutLoggedIn.aspx">O stronie</a></li>
+        <li class="rightli"><a  href="/LoginForm.aspx">Zaloguj się</a></li>  
+        <li class="rightli"><a href="/RegisterForm.aspx">Zarejestruj się</a></li>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+</asp:Content>

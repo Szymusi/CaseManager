@@ -1,0 +1,135 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #254E58;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-right: 1px solid #bbb;
+    }
+
+
+li a:hover {
+    background-color: #112D32;
+}
+
+
+body {
+    background-color: #88BDBC;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    height: 100vh;
+}
+
+.rightli {
+    float: right;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #6E6658;
+    color: #88BDBC;
+    text-align: center;
+}
+
+.content{
+    display: grid;
+    place-items: center;
+    width: 80%;
+    padding: 0 10% 0 10%;
+}
+
+.buttons{
+    display:block;
+}
+
+.button {
+    padding: 0.3em 1.2em;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 2em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-weight: 300;
+    color: whitesmoke;
+    background-color: #112D32;
+    text-align: center;
+    transition: all 0.2s;
+}
+
+.button:hover {
+    background-color: #254E58;
+}
+
+.input {
+    padding: 30px;
+    border: 0;
+    width: 100%;
+    font-size: 1rem;
+    background-color: #2d2d2d;
+    color: white;
+    border-radius: 4px;
+}
+
+h1 {
+    color: whitesmoke;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 46px;
+    font-weight: 100;
+    line-height: 50px;
+    letter-spacing: 1px;
+    padding: 0 0 40px;
+    border-bottom: double #555;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-height: 100%;
+    padding: 10px;
+}
+
+
+.loginInput {
+    color: black;
+    background-color: #f6f6f6;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 60%;
+    border: 2px solid #f6f6f6;
+    transition: all 0.5s ease-in-out;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.logoutButton {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-right: 1px solid #bbb;
+    background-color:#254E58;
+}
